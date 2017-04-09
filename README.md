@@ -9,9 +9,10 @@ my_disk.c:
 This kernel module creates block device as per the object. The open, release and geometry functions are commented in this code since they are not being used. But if you need to use them you can remove the comments.
 
 How to build:
-clone the two files from this repository : my_disk.c and Makefile and type the following commands in order: 
+copy the two files from this repository : my_disk.c and Makefile and type the following commands in order: 
 
 $ make 
+
 $ sudo insmod ./my_disk.ko
 
 Output:
