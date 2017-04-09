@@ -10,6 +10,7 @@ This kernel module creates block device as per the object. The open, release and
 
 How to build:
 clone the two files from this repository : my_disk.c and Makefile and type the following commands in order: 
+
 $ make 
 $ sudo insmod ./my_disk.ko
 
